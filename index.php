@@ -22,9 +22,13 @@
   <h2>
     Contact information:
   </h2>
-  <p>1- Sveinn Frimannsson: sveinnif@hiof.no</p>
-  <p>2- Abdelaziz Qassi: abdelazq@hiof.no</p>
-  <p>så kan dere andre legge til deres her også</p>
+  <p>1- Sveinn Frimannsson:            sveinnif@hiof.no</p>
+  <p>2- Abdelaziz Qassi:               abdelazq@hiof.no</p>
+  <p>3- Fryderyk Andrzej Roszuk:       fryderyk.a.roszuk@hiof.no</p>
+  <p>4- Abdulgadir Abdiwali Faarah:    abdulgadir.a.faarah@hiof.no</p>
+  <p>5- Husam Khudhair Tuaib Al Bozid: husam.k.bozid@hiof.no</p>
+  <p>6- Stian Michael Magnussen:       stianmag@hiof.no</p>
+
   <h2>
     How the website was made:
   </h2>
@@ -37,7 +41,7 @@
   <p> Now it asks for forgotten password if the lecturer has written the wrong
     password once, the lecturer is then prompted to input their mail address after
     which they will get a mail with a custom link that takes them to the reset page where they can input a new password.</p>
-  <h4>Api system</h4>
+  <h3>Api system</h3>
   <p>APi stand for Application programming Interface, it's engine under the hood.
     it's what others can't see on front-end. It takes the request and tell the system
     what you want to do and then return the response back to you. The api was created to show information of
