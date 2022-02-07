@@ -37,6 +37,7 @@
     <li>When a student or lecturer visit the "open" site, their actions should be tied to the user.</li>
     <li>Creating an app.</li>
     <li>If an app is made, it should be possible to download the .apk file.</li>
+    <li>Guests can leave comments on students messages.</li>
   </ul>
   
   <h2>How the website was made:</h2>
