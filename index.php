@@ -57,10 +57,13 @@
     Id must be written as integer otherwise will not get write info. </p>
   <p>* Api source code can be found here: <a href='https://github.com/SveinnIF/User-Management-PHP-MYSQL' > GitHub page.</a></p>
  
-<h3>Anonymous feedback to lecturer:</h3>
-<p> If a student wishes to send a message to a lecturer but doesn’t want to show his name, he can do so by ticking a box that makes him anonymous by hiding his name from the lecturer.  This is achieved by using the students ID that was assigned to him when he registered his account. </p>
+  <h3>Anonymous feedback to lecturer:</h3>
+  <p> If a student wishes to send a message to a lecturer but doesn’t want to show his name, he can do so by ticking a box that makes him anonymous by hiding his name from the lecturer.  This is achieved by using the students ID that was assigned to him when he registered his account. </p>
 
-<p> The code is a simple if statement that checks if the box is ticked or not and it either assigns the students name or ID based on the condition. </p> 
+  <p> The code is a simple if statement that checks if the box is ticked or not and it either assigns the students name or ID based on the condition. </p> 
+  
+  <h3>Showing messages for the course the lecturer teaches</h3>
+  <p>To only show the messages for the course the lecturer is teaching, there is a system that is set up that checks which lecturer is logged in and checks which course that lecturer is teaching by using the table in the database. The table on the website will use this to show the messages for a specific course.</p>
 
 <style>
   body{
