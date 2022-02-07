@@ -26,8 +26,7 @@
   <p>2- Abdelaziz Qassi:               abdelazq@hiof.no</p>
   <p>3- Fryderyk Andrzej Roszuk:       fryderyk.a.roszuk@hiof.no</p>
   <p>4- Abdulgadir Abdiwali Faarah:    abdulgadir.a.faarah@hiof.no</p>
-  <p>5- Husam Khudhair Tuaib Al Bozid: husam.k.bozid@hiof.no</p>
-  <p>6- Stian Michael Magnussen:       stianmag@hiof.no</p>
+  <p>5- Stian Michael Magnussen:       stianmag@hiof.no</p>
 
   <h2>
     How the website was made:
