@@ -81,7 +81,6 @@
     Contact information:
   </h2>
   <p>1- Sveinn Frimannsson:            sveinnif@hiof.no</p>
-  <p>2- Abdelaziz Qassi:               abdelazq@hiof.no</p>
   <p>3- Fryderyk Andrzej Roszuk:       fryderyk.a.roszuk@hiof.no</p>
   <p>4- Abdulgadir Abdiwali Faarah:    abdulgadir.a.faarah@hiof.no</p>
   <p>5- Stian Michael Magnussen:       stianmag@hiof.no</p>
@@ -338,6 +337,8 @@ Er selvfølgelig mye mer som kunne bli gjort her, men dette var noe av det vi op
 API er jo det hackere sikter seg mest inn på og vi vet at det er lett å bruke vårt API til å skrape til seg all bruker info ved å iterere gjennom alle bruker ID-er.
 Vi var i gang med å lage ett JWT system men droppet det når vi fant ut at vi ikke klarte å lage det samtidig med å få nettsiden til å fungere.
 </p>
+<p>Sette opp flere config filer for apache.</p>
+<p>Konfigurere PHP</p>
 
 </body>
 
