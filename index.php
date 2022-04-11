@@ -186,7 +186,7 @@
 <h3>Code review </h3>
 <p>Code review ble gjort kontinuerlig med PHP Intelephense i Visual Studio Code og manuelt med PHPStan.</p>
 <p>Det ble funnet 7 error med PHPStan på level 0.</p>
-<img src="images/codeReview1.jpg" alt="Inputvalidering av bilde" style="max-width: 80%;">
+<img src="images/codeReview1.JPG" alt="Inputvalidering av bilde" style="max-width: 80%;">
 <p>De errorene ble fikset.</p>
 <img src="images/codeReview2.jpg" alt="Inputvalidering av bilde" style="max-width: 80%;">
 <p>Kjørte deretter level 9 og fant 160 error, men flertallet var «Variable $dbh might not be defined.» og mange error med if-statements. </p>
@@ -215,11 +215,11 @@
 <h3>Risk based security test </h3>
 <p>Under har vi utført noen tester basert på sikkerhetskrav og abuse cases. Disse gjorde vi manuelt, og gjennom «GUI». Til vanlig ville disse bli gjort med programmer som for eksempel PHPUnit, men dette hadde vi ikke tid til å lære.  </p>
 <p>På bildet under kan man se at jeg prøvde å laste opp et .bin fil. Inputvalideringen sjekket filtypen og mottok ikke filen, da denne må være en JPG-fil. </p>
-<img src="images/inputvalidering bilde.jpg" alt="Inputvalidering av bilde" style="max-width: 80%;">
+<img src="images/inputvalidering bilde.JPG" alt="Inputvalidering av bilde" style="max-width: 80%;">
 <p>Bildet under viser et forsøk på SQL-injection, inputvalidering gjør at forsøket mislykkes. </p>
-<img src="images/inputvalidering SQL injection.jpg" alt="Inputvalidering SQL" style="max-width: 80%;">
+<img src="images/inputvalidering SQL injection.JPG" alt="Inputvalidering SQL" style="max-width: 80%;">
 <p>Forsøk på XSS, ikke mulig å injecte kode på grunn av validering. </p>
-<img src="images/inputvalidering melding XSS.jpg" alt="Inputvalidering SQL" style="max-width: 80%;">
+<img src="images/inputvalidering melding XSS.JPG" alt="Inputvalidering SQL" style="max-width: 80%;">
 
 
 <hr>
