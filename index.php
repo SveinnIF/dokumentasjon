@@ -124,7 +124,7 @@
 
 <h3>Risk Management Framework</h3>
 <p>En RMF er et rammeverk som hjelper å holde oversikt over "alle" sikkerhetsutofrdinger, hvordan de kan oppstå, mulige løsninger og hvor alvorlig de er.</p>
-<img src="images/RMF.jpg" alt="Risk Management Framework" style="width:985px;height:292px;">>
+<img src="images/RMF.JPG" alt="Risk Management Framework" style="width:985px;height:292px;">>
 
 <hr>
 
