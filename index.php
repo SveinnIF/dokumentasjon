@@ -330,6 +330,15 @@ Vi var i gang med å lage ett JWT system men droppet det når vi fant ut at vi i
 <p>Konfigurere PHP</p>
 <p>Som for eksempel denne statuskoden: header("HTTP/1.0 404 Not Found");</p>
 <p>Sette flere security headers</p>
+<p>Kunne ha satt opp Content-Security-Policy, den bringer mye konfigurasjon.</p>
+<p>Siden nettsiden ikke trenger å bli brukt i noen iframes kunne denne funktionaliteten bli skrudd av. Da hadde det ikke vært nødvendig å tenke på sandboxing eller lignende.</p>
+<p>Burde kanskje sette phpsessionid cookie til samesite=strickt med tankte på at google vil bytte default.</p>
+<p>Siden er fortsatt litt sårbar for XSS og CSRF.</p>
+<p>Tokens kunne bli brukt til å midigere CSRF, hvis vi hadde tid hadde vi laget et JWT system.</p>
+<p>Tabnabbing er fortsatt fult mulig.</p>
+<p>Multi-factor-authentication er noe som stopper veldig mange angrep som vi ikke har tid til å implemintere, ikke spesielt vanskelig, bare composer inn fra vår gode venn PHPGansta.</p>
+
+
 
 </body>
 
