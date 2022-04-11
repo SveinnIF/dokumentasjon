@@ -84,17 +84,6 @@
   <p>3- Fryderyk Andrzej Roszuk:       fryderyk.a.roszuk@hiof.no</p>
   <p>4- Abdulgadir Abdiwali Faarah:    abdulgadir.a.faarah@hiof.no</p>
   <p>5- Stian Michael Magnussen:       stianmag@hiof.no</p>
-
-  <h2>What we did not manage to do in time:</h2>
-  <ul>
-    <li>Forgotten password for students.</li>
-    <li>Overview of reported messages for administrators.</li>
-    <li>Reporting messages as a guest.</li>
-    <li>One answer per message as lecturer.</li>
-    <li>When a student or lecturer visit the "open" site, their actions should be tied to the user.</li>
-    <li>Creating an app.</li>
-    <li>If an app is made, it should be possible to download the .apk file.</li>
-  </ul>
   
   <h2>How the website was made:</h2>
   <p>* We started with aquiering approval to fork an existing open source project that had some of the basic functionality needed to make the website work.</p>
@@ -262,7 +251,7 @@ For å løse dette benyttet vi oss av PHP funksjonen «uniqid()» som oppretter 
 
 <hr>
 <h3>MySQL</h3>
-<p>Vi utførte MySQL secure installation </p>
+<p>Vi utførte MySQL secure installation, det er et script som kommer med mysql for å gjøre den sikrere, først setter vi at vi skal ha sterke passord også bytter vi passord. Deretter fjerner vi den annonyme brukeren, fjerner testdatabasen og reloader privliges tab. </p>
 
 <hr>
 <h3>Server Konfigurasjon</h3>
@@ -339,6 +328,8 @@ Vi var i gang med å lage ett JWT system men droppet det når vi fant ut at vi i
 </p>
 <p>Sette opp flere config filer for apache.</p>
 <p>Konfigurere PHP</p>
+<p>Som for eksempel denne statuskoden: header("HTTP/1.0 404 Not Found");</p>
+<p>Sette flere security headers</p>
 
 </body>
 
